@@ -4,7 +4,7 @@
 
 </script>
 
-<section>
+<section data-background="assets/talk_background.png">
     <h2 class="text-yellow-500">Getting started</h2>
     <ul>
         <li class="fragment fade-up">Configure your Presentation in <code>config.js</code></li>

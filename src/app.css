@@ -8,4 +8,28 @@
   text-align: center;
   height: 100vh;
 }
+.left-watermark {
+  position: absolute;
+  left: 40px;
+  bottom: 20px;
+  z-index: 10;
+  transition: 0.5s;
+}
 
+.left-watermark img {
+  width: 150px;
+  height: 150px;
+}
+
+.right-watermark {
+  position: absolute;
+  right: 40px;
+  bottom: 20px;
+  z-index: 10;
+  transition: 0.5s;
+}
+
+.right-watermark img {
+  width: 150px;
+  height: 150px;
+}

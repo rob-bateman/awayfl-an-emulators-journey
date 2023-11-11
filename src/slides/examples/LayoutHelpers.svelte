@@ -41,7 +41,7 @@
 
 <section>
   <h2>Stretch Example</h2>
-  <img src={logo} class="r-stretch">
+  <p class="r-stretch">Image byline</p>
   <p>Image byline</p>
 </section>
 

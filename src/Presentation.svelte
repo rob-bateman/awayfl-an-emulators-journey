@@ -15,7 +15,7 @@
 </script>
 
 <Title/>
-<Love {partner}/>
+<!--<Love {partner}/>-->
 <GettingStarted/>
 <AutoAnimate/>
 <Backgrounds/>
