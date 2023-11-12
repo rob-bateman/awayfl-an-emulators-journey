@@ -1,7 +1,7 @@
 <script>
     import Title          from './slides/Title.svelte';
-    import Love           from './slides/Love.svelte';
-    import GettingStarted from './slides/GettingStarted.svelte';
+    import End           from './slides/End.svelte';
+    import Talk from './slides/Talk.svelte';
     import AutoAnimate from './slides/examples/AutoAnimate.svelte';
     import Backgrounds from './slides/examples/Backgrounds.svelte';
     import Barebones from './slides/examples/Barebones.svelte';
@@ -15,8 +15,10 @@
 </script>
 
 <Title/>
-<!--<Love {partner}/>-->
-<GettingStarted/>
+<Talk/>
+<LayoutHelpers/>
+<End/>
+<!--
 <AutoAnimate/>
 <Backgrounds/>
 <Barebones/>
@@ -25,4 +27,4 @@
 <Math/>
 <Media/>
 <Transitions/>
-
+//-->
