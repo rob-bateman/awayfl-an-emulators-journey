@@ -16,6 +16,7 @@
 
 <Title/>
 <Talk/>
+<Transitions/>
 <LayoutHelpers/>
 <End/>
 <!--

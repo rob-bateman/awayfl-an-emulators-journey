@@ -44,7 +44,26 @@ h2 {
   text-shadow: #FC0 1px 0 10px !important;
 }
 
+h1 {
+  font-family: Ringbearer !important;
+  font-weight: normal !important;
+  font-size: 140px !important;
+  text-transform: none !important;
+  text-shadow: #FC0 1px 0 10px !important;
+}
+
 .reveal img {
   max-width: 100% !important;
   max-height: 100% !important;
+}
+
+.slides section .fragment-slow {
+  opacity: 0;
+  visibility: hidden;
+  transition: all 4s ease;
+}
+  
+.slides section .fragment-slow.visible {
+  opacity: 1;
+  visibility: inherit;
 }
