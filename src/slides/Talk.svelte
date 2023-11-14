@@ -50,7 +50,7 @@
     </div>
 </section>
 
-<section data-background-iframe="assets/awayfl-an-emulators-journey-demos/bin/flashisdead.html">
+<section data-background-iframe="assets/demos/flashisdead.html">
 </section>
 
 <section data-watermark="true" data-background="assets/talk_background.png">
@@ -85,7 +85,7 @@
         <h2>Gandal</h2>
         <div class="r-stack">
             <img src="assets/what-was-gandalf-smoking-the-lord-of-the-rings.jpg" alt="Gandalf" width="2000" height="1000">
-            <div class="r-hstack fragment" data-autoslide="0">
+            <div class="r-hstack">
                 <img src="assets/money-falling.png" alt="Money Falling" width="300" height="1000" style="position: absolute; left: 20px;">
                 <div class="r-stretch"></div>
                 <img src="assets/open-source.png" alt="Open Source" width="200" height="1000" style="position: absolute; right: 40px;">
@@ -131,7 +131,7 @@
 <section data-watermark="true" data-background="assets/talk_background.png">
     <h2>Poki</h2>
     <div class="r-stack">
-        <iframe data-src="assets/awayfl-an-emulators-journey-demos/bin/escaping_the_prison.html" width="750" height="519"></iframe>
+        <iframe data-src="assets/demos/escaping_the_prison.html" width="750" height="519"></iframe>
     </div>
     <div class="r-stretch">
     </div>
@@ -206,7 +206,7 @@
 <section data-watermark="true" data-background="assets/talk_background.png">
     <h2>Bad Ice Cream</h2>
     <div class="r-stack">
-        <iframe data-src="assets/awayfl-an-emulators-journey-demos/bin/assets/bad-ice-cream/index.html" width="550" height="550"></iframe>
+        <iframe data-src="assets/demos/assets/bad-ice-cream/index.html" width="550" height="550"></iframe>
     </div>
     <div class="r-stretch">
     </div>
