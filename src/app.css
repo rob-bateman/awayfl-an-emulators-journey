@@ -37,6 +37,19 @@
   src: url(../assets/RINGM___.TTF);
 }
 
+.reveal table th, .reveal table td {
+  text-align: center !important;
+  padding: 0.2em 0.5em 0.2em 0.5em !important;
+  border-bottom: 1px solid !important;
+}
+
+h3 {
+  font-family: Ringbearer !important;
+  font-weight: normal !important;
+  text-transform: none !important;
+  text-shadow: #FC0 1px 0 10px !important;
+}
+
 h2 {
   font-family: Ringbearer !important;
   font-weight: normal !important;
@@ -53,6 +66,11 @@ h1 {
 }
 
 .reveal img {
+  max-width: 100% !important;
+  max-height: 100% !important;
+}
+
+.reveal iframe {
   max-width: 100% !important;
   max-height: 100% !important;
 }

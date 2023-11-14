@@ -55,9 +55,10 @@
 
 <section data-watermark="true" data-background="assets/talk_background.png">
     <div class="r-stack">
-        <img src="assets/courage.jpeg" alt="Courage" width="800" height="894">
+        <img src="assets/courage.jpeg" alt="Courage" width="750" height="1000">
     </div>
-    <div class="r-stretch"></div>
+    <div class="r-stretch">
+    </div>
 </section>
 
 <section data-watermark="true" data-background="assets/talk_background.png" data-transition="convex">
@@ -81,7 +82,7 @@
 
 <section data-watermark="true" data-background="assets/talk_background.png" data-transition-speed="slow" data-autoslide="1000">
     <div class="fragment fragment-slow fade-in" data-autoslide="0">
-        <h2>Istari Insight 1</h2>
+        <h2>Gandal</h2>
         <div class="r-stack">
             <img src="assets/what-was-gandalf-smoking-the-lord-of-the-rings.jpg" alt="Gandalf" width="2000" height="1000">
             <div class="r-hstack fragment" data-autoslide="0">
@@ -128,5 +129,85 @@
 </section>
 
 <section data-watermark="true" data-background="assets/talk_background.png">
-    <h1 style="margin: 0px 0px 80px 0px;">as3</h1>
+    <h2>Poki</h2>
+    <div class="r-stack">
+        <iframe data-src="assets/awayfl-an-emulators-journey-demos/bin/escaping_the_prison.html" width="750" height="519"></iframe>
+    </div>
+    <div class="r-stretch">
+    </div>
+</section>
+
+<section data-watermark="true" data-background="assets/talk_background.png">
+    <div class="r-stack" style="margin: 0px 0px 20px 0px;">
+        <img src="assets/gandalf_vs_balrog_sd.jpg" alt="Icycle" width="900" height="1000">
+        <div class="r-vstack">
+            <h1 style="margin: 0px 0px 80px 0px;color: #000;font-size: 340px !important;">as3</h1>
+            <h2 style="margin: 0px 0px 0px 0px;font-size: 30px !important;">as2</h2>
+        </div>
+    </div>
+    <h3 class="fragment">Interpreted vs Compiled</h3>
+</section>
+
+<section data-watermark="true" data-background="assets/talk_background.png" data-auto-animate>
+    <div>
+        <table width="100%">
+            <thead>
+                <tr>
+                    <th><h3>interpreted</h3></th>
+                    <th><h3 class="fragment" data-fragment-index="7">jit</h3></th>
+                    <th><h3>compiled</h3></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="fragment" data-fragment-index="1">Python</td>
+                    <td class="fragment" data-fragment-index="8">Java</td>
+                    <td class="fragment" data-fragment-index="4">C / C++</td>
+                </tr>
+                <tr>
+                    <td class="fragment" data-fragment-index="2">Lua</td>
+                    <td class="fragment" data-fragment-index="9">C#</td>
+                    <td class="fragment" data-fragment-index="5">Rust</td>
+                </tr>
+                <tr>
+                    <td class="fragment" data-fragment-index="3">AS2</td>
+                    <td class="fragment" data-fragment-index="10">AS3</td>
+                    <td class="fragment" data-fragment-index="6">Zig</td>
+                </tr>
+            </tbody>
+        </table>
+        <p style="margin:20px 0px 0px 80px;text-shadow: #FC0 1px 0 10px !important;" class="fragment" data-fragment-index="11">Javascript</p>
+    </div>
+</section>
+
+<section data-watermark="true" data-background="assets/talk_background.png">
+    <div style="margin:0px 180px 0px 180px;">
+        <p style="text-align: justify;">"Javascript should not be the last programming language. Think of the children!"</p>
+        <p style="text-align: right;">- Douglas Crockford</p>
+    </div>
+</section>
+
+<section data-watermark="true" data-background="assets/talk_background.png">
+    <h2>awayfl jit</h2>
+    <p class="fragment" style="margin:0px 0px 0px 0px;" data-autoslide="50">SWF</p>
+    <p class="fragment" style="margin:0px 0px 0px 0px;" data-autoslide="50">↓</p>
+    <p class="fragment" style="margin:0px 0px 0px 0px;" data-autoslide="50">Actionscript Byte Code</p>
+    <p class="fragment" style="margin:0px 0px 0px 0px;" data-autoslide="50">↓</p>
+    <p class="fragment" style="margin:0px 0px 0px 0px;" data-autoslide="50">Javascript</p>
+    <p class="fragment" style="margin:0px 0px 0px 0px;" data-autoslide="50">↓</p>
+    <p class="fragment" style="margin:0px 0px 0px 0px;" data-autoslide="50">JIT</p>
+    <p class="fragment" style="margin:0px 0px 0px 0px;" data-autoslide="50">↓</p>
+    <p class="fragment" style="margin:0px 0px 0px 0px;">x86 / ARM</p>
+    <div class="r-stretch">
+        
+    </div>
+</section>
+
+<section data-watermark="true" data-background="assets/talk_background.png">
+    <h2>Bad Ice Cream</h2>
+    <div class="r-stack">
+        <iframe data-src="assets/awayfl-an-emulators-journey-demos/bin/assets/bad-ice-cream/index.html" width="550" height="550"></iframe>
+    </div>
+    <div class="r-stretch">
+    </div>
 </section>
