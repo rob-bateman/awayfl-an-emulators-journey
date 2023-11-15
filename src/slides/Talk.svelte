@@ -78,21 +78,22 @@
     </div>
 </section>
 
-<section data-watermark="true" data-background="assets/talk_background.png" data-transition="convex">
+<section data-watermark="true" data-background="assets/talk_background.png" data-transition="convex-in fade-out">
     <div class="r-stack">
         <img src="assets/away3d_logo_black_large.png" alt="Away3D" width="300" height="300">
+    </div>
+</section>
+
+<section data-watermark="true" data-background="assets/talk_background.png" data-transition="fade-in convex-out">
+    <div class="r-stack">
+        <img src="assets/away3d_logo_black_large.png" alt="Away3D" width="300" height="300">
+        <p style="font-size: 60px;">Typescript</p>
     </div>
 </section>
 
 <section data-watermark="true" data-background="assets/talk_background.png" data-transition="convex">
     <div class="r-stack">
         <img src="assets/awayjslogo-5276.png" alt="AwayJS" width="300" height="300">
-    </div>
-</section>
-
-<section data-watermark="true" data-background="assets/talk_background.png" data-transition="convex">
-    <div class="r-stack">
-        <img src="assets/awayfl-logo_large_black.png" alt="AwayFL" width="300" height="300">
     </div>
 </section>
 
@@ -119,7 +120,7 @@
 </section>
 //-->
 
-<section data-watermark="true" data-background="assets/talk_background.png">
+<section data-watermark="true" data-background="assets/talk_background.png" data-transition="convex">
     <h2>Icycle</h2>
     <div class="r-stack">
         <img src="assets/Icycle1_Wireframe.png" alt="Icycle" width="800" height="1000">
@@ -128,7 +129,7 @@
     </div>
 </section>
 
-<section data-watermark="true" data-background="assets/talk_background.png">
+<section data-watermark="true" data-background="assets/talk_background.png" data-transition="convex">
     <h2>Sunflower Learning</h2>
     <div class="r-stack">
         <img src="assets/Sunflower_Learning.png" alt="Icycle" width="700" height="1000">
@@ -137,12 +138,18 @@
     </div>
 </section>
 
-<section data-watermark="true" data-background="assets/talk_background.png">
+<section data-watermark="true" data-background="assets/talk_background.png" data-transition="convex">
     <h2>Maths-Whizz</h2>
     <div class="r-stack">
         <img src="assets/Maths-Whizz.png" alt="Icycle" width="700" height="1000">
     </div>
     <div class="r-stretch">
+    </div>
+</section>
+
+<section data-watermark="true" data-background="assets/talk_background.png" data-transition="convex">
+    <div class="r-stack">
+        <img src="assets/awayfl-logo_large_black.png" alt="AwayFL" width="300" height="300">
     </div>
 </section>
 
@@ -171,22 +178,28 @@
 
 
 <section data-watermark="true" data-background="assets/talk_background.png">
-    <h2>Timmeline Flow</h2>
+    <h2>Timeline Flow</h2>
     <div class="r-hstack gridstyle">
-        <div class="r-vstack">
-            <p class="fragment paragraph-style">as3</p>
-            <p class="fragment paragraph-style">as2</p>
-            <p class="fragment paragraph-style">as2</p>
+        <div class="r-vstack" style="border-width: 1; border-style: solid; border-color: #e5e7eb;">
+            <p class="fragment paragraph-style" data-fragment-index="1">┐</p>
+            <p class="fragment paragraph-style" data-fragment-index="2">advanceFrame()</p>
+            <p class="fragment paragraph-style" data-fragment-index="3">advanceFrame()</p>
+            <p class="fragment paragraph-style" data-fragment-index="4">advanceFrame()</p>
+            <p class="fragment paragraph-style" data-fragment-index="5">└</p>
         </div>
         <div class="r-vstack">
-            <p class="fragment paragraph-style">as3</p>
-            <p class="fragment paragraph-style">as2</p>
-            <p class="fragment paragraph-style">as2</p>
+            <p class="fragment paragraph-style" data-fragment-index="10">┌</p>
+            <p class="fragment paragraph-style" data-fragment-index="9">constructors()</p>
+            <p class="fragment paragraph-style" data-fragment-index="8">constructors()</p>
+            <p class="fragment paragraph-style" data-fragment-index="7">constructors()</p>
+            <p class="fragment paragraph-style" data-fragment-index="6">┘</p>
         </div>
         <div class="r-vstack">
-            <p class="fragment paragraph-style">as3</p>
-            <p class="fragment paragraph-style">as2</p>
-            <p class="fragment paragraph-style">as2</p>
+            <p class="fragment paragraph-style" data-fragment-index="11">┐</p>
+            <p class="fragment paragraph-style" data-fragment-index="12">executeScript()</p>
+            <p class="fragment paragraph-style" data-fragment-index="13">executeScript()</p>
+            <p class="fragment paragraph-style" data-fragment-index="14">executeScript()</p>
+            <p class="fragment paragraph-style" data-fragment-index="15">└</p>
         </div>
     </div>
 </section>
@@ -196,6 +209,18 @@
     <div class="r-stack">
         <iframe data-src="assets/demos/assets/FPAWorld1_sdk/index.html" width="720" height="480"></iframe>
     </div>
+    <div class="r-stretch">
+    </div>
+</section>
+
+<section data-background="assets/gandalf-lofi.gif">
+    <h2 class="fragment fade-in" style="padding: 30px;">Money</h2>
+    <ul class="bulletstyle">
+        <li style="list-style-type: '&#128077';" class="fragment fade-in">Do it for the love</li>
+        <li style="list-style-type: '&#128078';"class="fragment fade-in">You are not a charity</li>
+        <li style="list-style-type: '&#128073';"class="fragment fade-in">Community follows success</li>
+    </ul>
+    <audio src="assets/gandalf-lofi.m4a" data-autoplay></audio>
     <div class="r-stretch">
     </div>
 </section>
@@ -290,11 +315,23 @@
 </section>
 
 <!--////////////////////////// BUGS //////////////////////////-->
+<!--//
 <section data-background="assets/Bugs-life6.webp" data-background-opacity="0.5">
     <h2>Bugs</h2>
 </section>
-
-
+//-->
+<section data-background="assets/gandalf-lofi.gif">
+    <h2 class="fragment fade-in" style="padding: 30px;">Bugs</h2>
+    <ul class="bulletstyle">
+        <li style="list-style-type: '&#128077';" class="fragment fade-in">Minimise your test loop</li>
+        <li style="list-style-type: '&#128077';"class="fragment fade-in">Fix, don't patch!</li>
+        <li style="list-style-type: '&#128073';"class="fragment fade-in">Unit tests help refactoring</li>
+    </ul>
+    <audio src="assets/gandalf-lofi.m4a" data-autoplay></audio>
+    <div class="r-stretch">
+    </div>
+</section>
+<!--//
 <section data-watermark="true" data-background="assets/talk_background.png">
     <h2>Poki</h2>
     <div class="r-stack">
@@ -303,9 +340,9 @@
     <div class="r-stretch">
     </div>
 </section>
-
+//-->
 <section data-watermark="true" data-background="assets/talk_background.png">
-    <h2>Poki</h2>
+    <h2>Coolmath Games</h2>
     <div class="r-stack">
         <iframe data-src="assets/demos/jacksmith_sdk.html" width="700" height="525"></iframe>
     </div>

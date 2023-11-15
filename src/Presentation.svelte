@@ -16,10 +16,10 @@
 
 <Title/>
 <Talk/>
+<End/>
+<!--\
 <Transitions/>
 <LayoutHelpers/>
-<End/>
-<!--
 <AutoAnimate/>
 <Backgrounds/>
 <Barebones/>

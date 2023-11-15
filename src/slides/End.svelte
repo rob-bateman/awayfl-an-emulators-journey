@@ -1,5 +1,9 @@
 <section data-banner="default" data-watermark="true" data-background-image="assets/title_background_noloop.gif" data-background-opacity="0.6" style="filter: brightness(1.6);">
-    <img src="assets/thank_you.png" alt="An Emulator's Journey" height="600" width="1200">
+    <img style="margin: 0px;" src="assets/thank_you.png" alt="An Emulator's Journey" height="400" width="1200">
+    <div class="r-hstack">
+        <img style="margin: 0px 100px 0px 100px;" src="assets/logo-poki.png" alt="Poki" width="200" height="200">
+        <img style="margin: 0px 100px 0px 100px;" src="assets/logo-coolmathgames.png" alt="Coolmath Games" width="200" height="200">
+    </div>
     <div class="r-stretch">
     </div>
     <p>@robnet</p>
