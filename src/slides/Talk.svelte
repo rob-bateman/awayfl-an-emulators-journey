@@ -50,13 +50,30 @@
     </div>
 </section>
 
+
+<!--////////////////////////// FLASH IS DEAD //////////////////////////-->
 <section data-background-iframe="assets/demos/flashisdead.html">
 </section>
+
+<!--
+
 
 <section data-watermark="true" data-background="assets/talk_background.png">
     <div class="r-stack">
         <img src="assets/courage.jpeg" alt="Courage" width="750" height="1000">
     </div>
+    <div class="r-stretch">
+    </div>
+</section>
+//-->
+<section data-background="assets/gandalf-lofi.gif">
+    <h2 class="fragment fade-in" style="padding: 30px;">Survival Strategies</h2>
+    <ul class="bulletstyle">
+        <li style="list-style-type: '&#128077';" class="fragment fade-in">Language technique and process</li>
+        <li style="list-style-type: '&#128078';"class="fragment fade-in">Platform / Framework knowledge</li>
+        <li style="list-style-type: '&#128073';"class="fragment fade-in">Reuse, remix, refine</li>
+    </ul>
+    <audio src="assets/gandalf-lofi.m4a" data-autoplay></audio>
     <div class="r-stretch">
     </div>
 </section>
@@ -79,10 +96,10 @@
     </div>
 </section>
 
-
-<section data-watermark="true" data-background="assets/talk_background.png" data-transition-speed="slow" data-autoslide="1000">
-    <div class="fragment fragment-slow fade-in" data-autoslide="0">
-        <h2>Gandal</h2>
+<!--
+<section data-background="assets/gandalf-lofi.gif">
+    <div class="fragment fade-in" style="transition: all 4s ease;">
+        <h2>Gandalfing time</h2>
         <div class="r-stack">
             <img src="assets/what-was-gandalf-smoking-the-lord-of-the-rings.jpg" alt="Gandalf" width="2000" height="1000">
             <div class="r-hstack">
@@ -93,13 +110,14 @@
         </div>
     </div>
     <div class="r-stack">
-        <h2 class="fragment fade-in-then-out" style="padding: 30px;" data-autoslide="0">b2b > dev</h2>
-        <h2 class="fragment fade-in-then-out" style="padding: 30px;" data-autoslide="0">support > patreon</h2>
+        <h2 class="fragment fade-in-then-out" style="padding: 30px;">b2b > dev</h2>
+        <h2 class="fragment fade-in-then-out" style="padding: 30px;">support > patreon</h2>
     </div>
-    
+    <audio src="assets/gandalf-lofi.m4a" data-autoplay></audio>
     <div class="r-stretch">
     </div>
 </section>
+//-->
 
 <section data-watermark="true" data-background="assets/talk_background.png">
     <h2>Icycle</h2>
@@ -137,9 +155,59 @@
     </div>
 </section>
 
+
+<!--////////////////////////// REVERSE ENGINEERING //////////////////////////-->
+<section data-background="assets/minecraft_computer.jpg" data-background-opacity="0.5">
+    <h2>Reverse Engineering</h2>
+</section>
+
+<section data-watermark="true" data-background="assets/talk_background.png">
+    <div class="r-stack">
+        <img src="assets/timeline_impossible_quiz.png" alt="Timeline Impossible Quiz" width="900" height="1000">
+    </div>
+    <div class="r-stretch">
+    </div>
+</section>
+
+
+<section data-watermark="true" data-background="assets/talk_background.png">
+    <h2>Timmeline Flow</h2>
+    <div class="r-hstack gridstyle">
+        <div class="r-vstack">
+            <p class="fragment paragraph-style">as3</p>
+            <p class="fragment paragraph-style">as2</p>
+            <p class="fragment paragraph-style">as2</p>
+        </div>
+        <div class="r-vstack">
+            <p class="fragment paragraph-style">as3</p>
+            <p class="fragment paragraph-style">as2</p>
+            <p class="fragment paragraph-style">as2</p>
+        </div>
+        <div class="r-vstack">
+            <p class="fragment paragraph-style">as3</p>
+            <p class="fragment paragraph-style">as2</p>
+            <p class="fragment paragraph-style">as2</p>
+        </div>
+    </div>
+</section>
+
+<section data-watermark="true" data-background="assets/talk_background.png">
+    <h2>Fancy Pants Adventure</h2>
+    <div class="r-stack">
+        <iframe data-src="assets/demos/assets/FPAWorld1_sdk/index.html" width="720" height="480"></iframe>
+    </div>
+    <div class="r-stretch">
+    </div>
+</section>
+
+<!--////////////////////////// LANGUAGES //////////////////////////-->
+<section data-background="assets/matrix_code.jpg" data-background-opacity="0.5">
+    <h2>Languages</h2>
+</section>
+
 <section data-watermark="true" data-background="assets/talk_background.png">
     <div class="r-stack" style="margin: 0px 0px 20px 0px;">
-        <img src="assets/gandalf_vs_balrog_sd.jpg" alt="Icycle" width="900" height="1000">
+        <img src="assets/gandalf_vs_balrog_sd.jpg" alt="Gandalf vs Balrog" width="900" height="1000">
         <div class="r-vstack">
             <h1 style="margin: 0px 0px 80px 0px;color: #000;font-size: 340px !important;">as3</h1>
             <h2 style="margin: 0px 0px 0px 0px;font-size: 30px !important;">as2</h2>
@@ -188,6 +256,15 @@
 </section>
 
 <section data-watermark="true" data-background="assets/talk_background.png">
+    <div class="r-stack">
+            <img src="assets/pngwing.com.png" alt="Swiss Army Knife" width="700" height="1000">
+        <div>
+            <h2 style="margin:180px 0px 0px 0px;">eval()</h2>
+        </div>
+    </div>
+</section>
+
+<section data-watermark="true" data-background="assets/talk_background.png">
     <h2>awayfl jit</h2>
     <p class="fragment" style="margin:0px 0px 0px 0px;" data-autoslide="50">SWF</p>
     <p class="fragment" style="margin:0px 0px 0px 0px;" data-autoslide="50">↓</p>
@@ -207,6 +284,30 @@
     <h2>Bad Ice Cream</h2>
     <div class="r-stack">
         <iframe data-src="assets/demos/assets/bad-ice-cream/index.html" width="550" height="550"></iframe>
+    </div>
+    <div class="r-stretch">
+    </div>
+</section>
+
+<!--////////////////////////// BUGS //////////////////////////-->
+<section data-background="assets/Bugs-life6.webp" data-background-opacity="0.5">
+    <h2>Bugs</h2>
+</section>
+
+
+<section data-watermark="true" data-background="assets/talk_background.png">
+    <h2>Poki</h2>
+    <div class="r-stack">
+        <iframe data-src="assets/demos/assets/papa_freezeria_sdk/index.html" width="700" height="525"></iframe>
+    </div>
+    <div class="r-stretch">
+    </div>
+</section>
+
+<section data-watermark="true" data-background="assets/talk_background.png">
+    <h2>Poki</h2>
+    <div class="r-stack">
+        <iframe data-src="assets/demos/jacksmith_sdk.html" width="700" height="525"></iframe>
     </div>
     <div class="r-stretch">
     </div>

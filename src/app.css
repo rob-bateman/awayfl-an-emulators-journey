@@ -75,13 +75,19 @@ h1 {
   max-height: 100% !important;
 }
 
-.slides section .fragment-slow {
-  opacity: 0;
-  visibility: hidden;
-  transition: all 4s ease;
+.bulletstyle {
+  position: absolute;
+  left: 200px;
 }
-  
-.slides section .fragment-slow.visible {
-  opacity: 1;
-  visibility: inherit;
+
+.bulletstyle li {
+  padding: 10px 0px 10px 20px;
+}
+
+.gridstyle div p {
+  padding: 0px 50px 0px 50px;
+}
+
+.paragraphstyle li {
+  text-shadow: #FC0 1px 0 10px !important;
 }
